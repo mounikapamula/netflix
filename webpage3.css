@@ -1,0 +1,280 @@
+body {
+  background-color: black;
+  background-image: linear-gradient(
+      to top,
+      rgba(0, 0, 0, 0.9) 0,
+      rgba(0, 0, 0, 0) 60%,
+      rgba(0, 0, 0, 0.8) 100%
+    ),
+    url(netflix.jpeg);
+  background-repeat: no-repeat;
+  background-position: top;
+  background-size: 96%;
+  color: white;
+}
+.header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin: 46px;
+}
+.nav {
+  display: flex;
+  gap: 32px;
+}
+.nav button {
+  margin: 0;
+}
+* {
+  box-sizing: border-box;
+}
+
+h1,
+h2 {
+  color: white;
+  text-align: center;
+  margin: 46px;
+}
+.tv {
+  color: white;
+  margin-top: 358px;
+  /* border: 2px solid white; */
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+.tv-text {
+  /* text-align: center; */
+  width: 60%;
+}
+.tv-text h2 {
+  font-size: 52px;
+  font-weight: bold;
+}
+.tv-text p {
+  font-size: 28px;
+  padding-left: 143px;
+}
+
+.tv-image {
+  width: 40%;
+}
+.download {
+  width: 40%;
+}
+.Stream {
+  width: 40%;
+}
+.netflix {
+  font-size: xxx-large;
+  color: red;
+  /* position: absolute; */
+  font-family: fantasy;
+  margin: 0px 0px 0px 181px;
+}
+.signbutton {
+  text-align: right;
+}
+button {
+  font-size: large;
+  background-color: red;
+  color: white;
+  border-radius: 3px;
+}
+.english:hover,
+button:hover,
+.get:hover,
+.footer ul:hover,
+.faq-item:hover {
+  cursor: pointer;
+}
+.english {
+  font-size: large;
+  background-color: black;
+  color: white;
+  border-radius: 6px;
+  padding: 4px 12px;
+  /* border: 2px solid white; */
+}
+.signin:hover {
+  background-color: tomato;
+}
+
+.unlimited {
+  text-align: center;
+  font-size: x-large;
+  margin: 250px 0px 0px 0px;
+  color: white;
+}
+.email {
+  text-align: center;
+  color: white;
+}
+.mail {
+  height: 43px;
+  width: 358px;
+  text-align: center;
+  filter: opacity(54%);
+  border: 3px solid white;
+  color: white;
+  background-color: black;
+  font-size: large;
+}
+.get:hover {
+  background-color: tomato;
+}
+.get {
+  padding: 12px 47px;
+  margin: 0px 8px;
+}
+.offline {
+  display: flex;
+  justify-content: space-between;
+  /* border: 2px solid white; */
+}
+.offline-text {
+  width: 60%;
+  margin-top: 80px;
+}
+.offline-text h2 {
+  font-size: 52px;
+  font-weight: bold;
+}
+.offline-text p {
+  font-size: 28px;
+  padding-left: 143px;
+}
+
+.watch {
+  display: flex;
+  justify-content: space-between;
+  /* border: 2px solid white; */
+  margin: 67px 0px;
+}
+.watch-text {
+  width: 60%;
+  padding-top: 60px;
+}
+.watch-text h2 {
+  font-size: 52px;
+  font-weight: bold;
+}
+.watch-text p {
+  font-size: 28px;
+  padding-left: 143px;
+}
+.create {
+  display: flex;
+  justify-content: space-between;
+  /* border: 2px solid white; */
+  margin: 67px 0px;
+}
+.create-text {
+  width: 60%;
+  padding-top: 60px;
+}
+.create-text h2 {
+  font-size: 52px;
+  font-weight: bold;
+}
+.create-text p {
+  font-size: 28px;
+  padding-left: 143px;
+}
+.kids {
+  width: 40%;
+}
+
+.faq-section {
+  padding-left: 0;
+}
+.faq-section .faq-item {
+  display: flex;
+  justify-content: space-between;
+  width: 90%;
+  list-style-type: none;
+  padding: 35px;
+  margin: 8px auto;
+  background-color: rgb(45 45 45);
+  font-size: 24px;
+  /* text-align: center; */
+}
+.faq-section .faq-item:hover {
+  background-color: rgb(62, 60, 60);
+}
+.footer {
+  display: flex;
+  justify-content: space-around;
+  margin: 53px;
+  font-size: larger;
+  color: #ffffffb3;
+}
+.footer ul {
+  list-style-type: none;
+  text-decoration: underline;
+}
+
+.footer ul li {
+  margin-bottom: 16px;
+}
+@media (max-width: 662px) {
+  .footer {
+    font-size: medium;
+  }
+  .netflix {
+    font-size: x-large;
+    margin: 0px;
+  }
+  .english {
+    font-size: small;
+  }
+  button {
+    font-size: small;
+  }
+  .tv {
+    margin-top: 25px;
+  }
+  .tv-text p {
+    font-size: 18px;
+    padding-left: 47px;
+  }
+  .tv-text h2 {
+    font-size: 23px;
+    font-weight: bold;
+  }
+  .offline-text h2 {
+    font-size: 23px;
+    font-weight: bold;
+  }
+  .offline-text p {
+    font-size: 17px;
+    padding-left: 38px;
+  }
+  .watch-text h2 {
+    font-size: 23px;
+    font-weight: bold;
+  }
+  .watch-text p {
+    font-size: 17px;
+    padding-left: 30px;
+  }
+  .create-text h2 {
+    font-size: 23px;
+    font-weight: bold;
+  }
+  .create-text p {
+    font-size: 17px;
+    padding-left: 33px;
+  }
+  .download {
+    width: 55%;
+    height: 358px;
+  }
+
+  /* .Stream {
+    width: 64%;
+  }
+  .kids {
+    width: 90%;
+  } */
+}
